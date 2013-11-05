@@ -2,7 +2,7 @@ module SocialButtons
   module Tweet
     include SocialButtons::Assistant
 
-    TWITTER_SHARE_URL = "http://twitter.com/share"
+    TWITTER_SHARE_URL = "//twitter.com/share"
     CLASS = "twitter-share-button"
 
     def tweet_button(options = {})
@@ -43,7 +43,7 @@ module SocialButtons
       end
 
       def twitter_wjs
-        "http://platform.twitter.com/widgets.js"
+        "//platform.twitter.com/widgets.js"
       end
     end # class
   end
